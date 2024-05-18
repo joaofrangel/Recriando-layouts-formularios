@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+
+body::before{
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 368px; 
+  background: #535971;
+}
+
+.page{
+  width: 736px;
+  margin: 0 auto;
+}
+
+header{
+  width: 319px;
+  margin-top: 74px;
+}
+
+header h1{
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: auto;
+  color: white;
+  margin-bottom: 16px;
+  width: 163px;
+  height: 60px;
+}
+
+header p{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+  
+}
+
+
+  form{
+    margin-top: 38px;
+    border-radius: 8px 8px 0 0;
+    background: #fafafc;
+    min-height: 300px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  fieldset{
+    border: none;
+    gap: 30px;
+  }
+
+
+  .fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+  
+  }
+
+
+  fieldset legend{
+    color: #535971;
+    font-family: "Staatliches", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+    margin-bottom: 34px;
+    width: 100%;
+    
+  
+  }
+
+  label {
+    font-family: "Poppins", sans-serif;
+    color: #4E4958;
+    font-size: 14px;
+
+  }
+
+  label span{
+    color: #C1BCCC;
+  }
+
+  input{
+    background: #E6E6F0;
+
+  }
+
+
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+  }
+
+  .input-wrapper input{
+   
+    width: 622px;
+    height: 56px;
+    background: #E6E6F0 ;
+    border-radius: 8px;
+    border: 0;
+    
+  }
+
+  .input-name{
+    display: flex;
+    gap: 22px;
+   
+    
+  }
+
+  .input-name input{
+    width: 300px;
+    height: 56px;
+  }
+
+  .date-wrapper{
+
+    display:flex;
+    gap: 10px;
+  }
+
+ 
+  #first-date, #second-date {
+    width: 300px;
+    height: 56px;
+    margin-right: 20px;
+  }
+
+  #beggin1, #beggin2, #end1, #end2{
+    width: 140px;
+    height: 56px;
+  }
+
+  .date-label1, .date-label2{
+    border: 0;
+    font-size: 20px;
+    margin: 32px auto 0 ;
+
+  }
+ 
+  .date-label2{
+    padding-top: 16px;
+  }
+
+  footer{
+    background: #535971;
+    height: 160px;
+    width: 737.5px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin: 0 auto ;
+    margin-bottom: 100px;
+    border-top: 1px solid #d6d6d6;
+    border-radius: 0 0 20px 20px;
+  
+  }
+  
+  footer .button{
+    height: 56px;
+    background: #ff5374 ;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+  }
